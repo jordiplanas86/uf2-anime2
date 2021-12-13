@@ -5,9 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class Uf2AnimeApplication {
-
 	public static void main(String[] args) {
 		SpringApplication.run(Uf2AnimeApplication.class, args);
 	}
-
 }
