@@ -19,7 +19,7 @@ public class User {
     @ManyToMany(mappedBy = "favoritedBy")
     public Set<Anime> favorites;
 
-    @ManyToMany(mappedBy = "vistoBY")
+    @ManyToMany(mappedBy = "vistoBy")
     public Set<Anime> visto;
 
 }
